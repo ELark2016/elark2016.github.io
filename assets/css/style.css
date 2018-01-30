@@ -1,0 +1,267 @@
+
+body {
+    background-image: url("../images/vintage-concrete.png");
+    /* background: red; */
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 2em;
+    color: #fff;
+    float: left;
+    padding: 5px;
+    margin: 15px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+}
+
+.header {
+    background: #fff;
+    border: 2px solid #ccc;
+    margin: 10px 0px 10px 0px;
+    height: 75px;
+    width: 100%;
+    float: left;
+
+}
+#name {
+    background: #4aaaa5;
+    width: 33%;
+    height: 75px;
+    float: left;
+    
+}
+
+.links {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    width: 33%;
+    height: 75px;
+    float: right;
+}
+
+#p-links {
+    font-size: 1em;
+    float: right;
+    padding: 30px 40px;
+}
+
+.main {
+    color: #777;
+    background: #fff;
+    border: 2px solid #ddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 650px;
+    height: auto;
+    float: left;
+    padding: 5px;
+    margin: auto;
+
+}
+
+.aboutMeSection {
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+    float: left;
+}
+
+
+#about {
+    color: #4aaaa5;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+ }
+
+#bar1 {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    position: relative;
+    clear: both;
+}
+
+#profilePic {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 20px;
+    float: left;
+}
+
+
+
+.connectSection {
+    width: 25%;
+    float: right;
+    background: #fff;
+    border: 2px solid #ddd;
+    height: 175px;
+    margin: auto;
+    padding: 5px;
+}
+
+
+
+#connect {
+    color: #4aaaa5;
+    font-weight: bold;
+    margin: auto;
+    padding: 20px;
+}
+
+#bar2 {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    position: relative;
+    clear: both;
+}
+
+.connectSocialMedia {
+    position: relative;
+    top: 25px;
+    left: 2px;
+}
+
+a {
+    margin: 3px;
+    
+}
+
+#hr3 {
+    
+    border: none;
+    width: 960px;
+    height: 10px;
+    background: #4aaaa5;
+    margin: 0px;
+    clear: both;
+    
+}
+
+.footerbar {
+    width: 100%;
+    height: 5px;
+    background: #4aaaa5;
+    position: relative;
+    clear: both;
+}
+
+.footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    bottom: 0;
+    background: #666;
+    clear: both;
+}
+
+#footer-copy {
+    color: #777;
+    text-align: center;
+    padding: 16px 0px;
+    
+}
+
+
+/* CSS for Contact Page */
+
+
+.contact-name {
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+#contact-name {
+    background: #fff;
+    width: 95%;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.email {
+    margin: 5px;
+    padding: 5px;
+}
+
+#email {
+    background: #fff;
+    width: 95%;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+.message {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    width: 95%;
+}
+
+#message {
+    background: #fff;
+    width: 95%;
+    height: 200px;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+}
+
+input {
+    background: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 1em;
+    color: #fff;
+    width: 125px;
+    height: 50px;
+    margin: 2px 16px;
+    float: left;
+}
+
+/* CSS for Portfolio Page */
+
+.portfolio-box {
+    width: 30%;
+    height: 200px;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    display: block;
+}
+
+.portfolio-box img {
+    max-width: 30%;
+    display: inline-block;
+}
+
+
+
+#boxbanner {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    position: relative;
+    bottom: 75px;
+    left: 3px;
+    background: #4aaaa5;
+    float: left;
+}
